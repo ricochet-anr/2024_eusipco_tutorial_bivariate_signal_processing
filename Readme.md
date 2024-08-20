@@ -6,7 +6,7 @@ This repository accompanies the bivariate signal processing tutorial presented a
 > **Organizers**: Nicolas Le Bihan (CNRS, Université Grenoble-Alpes, Gipsa Lab) and Julien Flamant (CNRS, Université de Lorraine, CRAN)
 >
 <details>
-  <summary>See Abstract</summary>
+  <summary>Click to expand Abstract</summary>
   
 An important task of data science is to represent and evidence the interrelation between coupled observables. The simple case of two observables that vary in time or space leads to bivariate signals. Those appear in virtually all fields of physical sciences, whenever two quantities of interest are related and jointly measured, such as in seismology (e.g. horizontal vs vertical ground motion), optics (transverse coordinates of the electric field), oceanography (components of current velocities), or underwater acoustics (horizontal vs vertical particle displacements) to cite a few.<br/>
 
@@ -18,9 +18,8 @@ This quaternion representation lays down the first building blocks of a signal p
 This tutorial aims at providing insights into the specificity of the bivariate signal processing and its deep connections with the physics of polarization. Emphasis on the geometric interpretation of bivariate signal processing will be made and illustrated with tutorial examples based on the BiSPy toolbox.
 </details>
 
-
-
 # Notebooks
+Numerical experiments are provided troughout the tutorial thanks to the python package [BiSPy](https://github.com/jflamant/bispy). If you use ``pip`` the package (and its dependencies) can be simply installed from PyPi using ``pip install bispy-polar``. 
 
 In the folder ``notebooks/`` you'll find three companion notebooks for the tutorial. They are designed to run online in Google Colab. You can also download them and run them locally if you prefer.
 
@@ -30,5 +29,21 @@ In the folder ``notebooks/`` you'll find three companion notebooks for the tutor
 
 3. Time-frequency analysis  [.ipynb file](https://github.com/ricochet-anr/2024_eusipco_tutorial_bivariate_signal_processing/blob/main/notebooks/III_timefrequency_analysis.ipynb) [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/ricochet-anr/2024_eusipco_tutorial_bivariate_signal_processing/blob/main/notebooks/III_timefrequency_analysis.ipynb)
 
-To go further, you can also check BiSPy's tutorials and documentation [here](https://bispy.readthedocs.io/en/latest/)
+To go further, you can also check BiSPy's tutorials and documentation [here](https://bispy.readthedocs.io/en/latest/).
 
+# Slides
+
+Slides of the tutorial are available in pdf format in the ``slides/`` folder. 
+
+# References 
+
+Main references used throughout the tutorial are:
+
+- "*A general approach for the analysis and filtering of bivariate signals*", J. Flamant, Phd thesis, Lille University, 2018.
+[HAL link](https://hal.science/tel-01926941)
+- "*Spectral analysis of stationary random bivariate signals*", J. Flamant, N. Le Bihan and P. Chainais, IEEE Transactions on Signal Processing (TSP), vol. 65, num. 23, pp. 6135-6145, 2017.
+[HAL link](https://hal.science/hal-01655097/document)
+- "*A Complete Framework for Linear Filtering of Bivariate Signals*", J. Flamant, P. Chainais and N. Le Bihan, IEEE Transactions on Signal Processing (TSP), vol. 66, num. 17, pp.4541-4552, 2018.
+[HAL link](https://arxiv.org/pdf/1802.02469)
+- “*Time-frequency analysis of bivariate signals*”, J. Flamant, N. Le Bihan and P. Chainais., Applied and Computational Harmonic Analysis (ACHA), vol. 46, issue 2, pp. 351-383, 2019.
+[HAL link](https://hal.science/hal-01362586/file/1609.02463v1.pdf)
