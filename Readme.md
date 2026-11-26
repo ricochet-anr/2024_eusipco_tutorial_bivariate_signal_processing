@@ -29,7 +29,7 @@ In the folder ``notebooks/`` you'll find three companion notebooks for the tutor
 
 3. Time-frequency analysis  [.ipynb file](https://github.com/ricochet-anr/2024_eusipco_tutorial_bivariate_signal_processing/blob/main/notebooks/III_timefrequency_analysis.ipynb) [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/ricochet-anr/2024_eusipco_tutorial_bivariate_signal_processing/blob/main/notebooks/III_timefrequency_analysis.ipynb)
 
-To go further, you can also check BiSPy's tutorials and documentation [here](https://bispy.readthedocs.io/en/latest/).
+To go further, you can also check BiSPy's tutorials and documentation [here](https://jflamant.github.io/bispy/).
 
 # Slides
 
